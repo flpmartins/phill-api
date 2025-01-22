@@ -1,0 +1,63 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider          = "postgresql"
+  url               = env("DATABASE_URL")
+  shadowDatabaseUrl = env("SHADOW_DATABASE_URL")
+}
+
+model Profiles {
+  id          String  @id
+  description String
+  permissions Json
+  users       Users[]
+
+  @@map("profiles")
+}
+
+model Users {
+  id         String  @id @default(uuid())
+  name       String
+  email      String  @unique
+  phone      String?
+  cpf        String  @unique
+  avatar     String?
+  password   String?
+  id_profile String
+
+  profile Profiles @relation(fields: [id_profile], references: [id])
+
+  tokens   Tokens[]
+  Products Products[]
+
+  @@map("users")
+}
+
+model Tokens {
+  id         String   @id @default(uuid())
+  token      String
+  created_at DateTime @default(now())
+
+  user    Users  @relation(fields: [user_id], references: [id])
+  user_id String
+
+  @@map("tokens")
+}
+
+model Products {
+  id          String   @id @default(uuid())
+  name        String
+  description String
+  price       String
+  category    String
+  stock       String
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  user_id     String
+
+  user Users @relation(fields: [user_id], references: [id])
+
+  @@map("products")
+}

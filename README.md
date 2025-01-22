@@ -1,64 +1,29 @@
-# Project: Go Train
+<div align="center">
 
-Go Train is a training and gym platform designed to facilitate the organization and tracking of physical activities.
+# Phill
 
-## About the Project
+![Logo](https://github.com/flpmartins/phill-frontend/blob/main/src/assets/logoPage.png?raw=true)
 
-- **Version:** 1.0.0
-- **Technologies:** Node.js (16.4 or higher), Prisma.
+[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/seu-usuario)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/seu-usuario/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/seu-usuario/)
 
-## Environment Setup
+## Sobre o Projeto
+phill é uma plataforma de cadastro e gerenciamento de produtos.
 
-### Required Dependencies
+## Como Iniciar o Projeto
 
-Make sure you have installed:
+1. Clone o repositório: `git clone url`
+2. Instale as dependências: `npm install` ou `yarn install`
+3. Configure as variáveis de ambiente, incluindo as chaves de API do Google.
+4. Inicie o servidor: `npm run dev`
+5. Abra o aplicativo no navegador: `http://localhost:3000`
 
-- [Node.js](https://nodejs.org/) (version 16.4 or higher).
-- [NPM](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/) as a dependency manager.
-
-### Setup Steps
-
-1. **Clone the repository:**
-   ```bash
-   git clone <REPOSITORY_URL>
-   cd <PROJECT_FOLDER>
-   ```
-
-2. **Install dependencies:**
-   ```bash
-   npm install
-   ```
-
-3. **Configure Prisma:**
-   - Generate Prisma clients:
-     ```bash
-     npx prisma generate
-     ```
-   - Apply the schema to the database:
-     ```bash
-     npx prisma db push
-     ```
-
-4. **Set up the `.env` file:**
-   - Fill in the necessary configurations in the `.env` file based on the `.env.example` file.
-
-## Running the Project
-
-To start the project, run:
-
-```bash
-npm start
-```
-
-Or, if you prefer to use development mode:
-
-```bash
-npm run dev
-```
-
-## Contribution
-
-### Guidelines
-
-- **Code Review:** Submit a Pull Request and wait for a review before merging.
-
+## Tecnologias Utilizadas
+<img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+<img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white">
+<img alt="Node.js" src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white">
+<img alt="React" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
+<img alt="Material-UI" src="https://img.shields.io/badge/Material--UI-0081CB?style=for-the-badge&logo=material-ui&logoColor=white">
+<img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white">
+</div>

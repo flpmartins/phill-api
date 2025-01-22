@@ -15,9 +15,9 @@ phill é uma plataforma de cadastro e gerenciamento de produtos.
 
 1. Clone o repositório: `git clone url`
 2. Instale as dependências: `npm install` ou `yarn install`
-3. Configure as variáveis de ambiente, incluindo as chaves de API do Google.
+3. Configure as variáveis de ambiente.
 4. Inicie o servidor: `npm run dev`
-5. Abra o aplicativo no navegador: `http://localhost:3000`
+   `http://localhost:3333`
 
 ## Tecnologias Utilizadas
 <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">

@@ -13,10 +13,15 @@ phill é uma plataforma de cadastro e gerenciamento de produtos.
 
 ## Como Iniciar o Projeto
 
-1. Clone o repositório: `git clone url`
+1. Clone o repositório: `git clone [url](https://github.com/flpmartins/phill-api.git)`
 2. Instale as dependências: `npm install` ou `yarn install`
 3. Configure as variáveis de ambiente.
-4. Inicie o servidor: `npm run dev`
+4. Rode o prisma:
+   1. `npx prisma generate`
+   2. `npx prisma migrate dev`
+   3. `npx prisma db push`
+   4. após rodar executar o seed.sql que fica na raiz do projeto para criar os profiles e os usuários de teste.
+5. Inicie o servidor: `npm run dev`
    `http://localhost:3333`
 
 ## Tecnologias Utilizadas

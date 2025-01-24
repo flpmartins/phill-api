@@ -24,6 +24,8 @@ phill é uma plataforma de cadastro e gerenciamento de produtos.
 5. Inicie o servidor: `npm run dev`
    `http://localhost:3333`
 
+6. ao criar seu usuário verifique o email para redefinir sua senha.
+
 ## Tecnologias Utilizadas
 <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
 <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white">

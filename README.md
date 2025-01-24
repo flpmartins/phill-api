@@ -20,7 +20,7 @@ phill é uma plataforma de cadastro e gerenciamento de produtos.
    1. `npx prisma generate`
    2. `npx prisma migrate dev`
    3. `npx prisma db push`
-   4. após rodar executar o seed.sql que fica na raiz do projeto para criar os profiles e os usuários de teste.
+   4. após rodar executar o seed.sql que está localizado pasta `seed` na raiz do projeto para criar os profiles e os usuários de teste.
 5. Inicie o servidor: `npm run dev`
    `http://localhost:3333`
 
